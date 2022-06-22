@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+#heading{
+    color: #2e9b7b;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: -20px;
+   
+}
+
+#body{
+    color: #9fc3bb;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+.container{
+    background-color: #e6f9e3;
+    align-items: center;
+    width: 430px;
+    padding: 20px;
+}
+
+#button{
+    background-color: gainsboro;
+    border-radius: 1px;
+    border: none;
+    padding: 0px 20px;
+    margin-top: 15px;
+    box-shadow: #acabab 0px 3px 3px 0px;
+}
+
+.flex{ 
+    display: flex;
+}
+
+.all{
+    background-color: #ffffff;
+    width: 470px;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 200px;
+    box-shadow: #f1f1f1 1px 0px 1px 2px;
+}
+</style>
+
+
+<body> 
+<div class="all">
+     <div class="container"> 
+    
+        <img src="/check.png" alt="Check Mark"; width="20px"; height="20px"; style="margin: top 100px;">
+         <p id="heading"> You have successfully unsubscribed. </p>
+
+        <p id="body"> You will no longer receive our opt-in messages, but you can 
+        <br> 
+        change your decision at anytime</p>
+     </div> 
+
+     <div class="flex">
+         <p style="margin-left: 50px; margin-top: 20px; font-size: 16px;"> Did you unsubscribe by accident?</p>
+         <input type="button" value="Resubscribe" id="button">
+    </div>
+</div>
+</body>
+</html>
